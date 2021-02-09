@@ -1,0 +1,180 @@
+body {
+    background-color: gray;
+}
+.slider{
+    width: 1080px;
+    height: 675px;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.slider input[type=radio]{
+    display: none;
+}
+ul.imgs li{
+    position: absolute;
+    list-style: none;
+    visibility: hidden;
+    margin-left: 11%;
+}
+li{
+    font-weight: bold;
+    font-family: 'Arial';
+    font-size: 15px;
+    text-align: center;
+}
+.bullets{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 20px;
+    z-index: 2;
+}
+.bullets label{
+    display: inline-block;
+    border-radius: 70%;
+    background-color: rgba(0,0,0,0.55);
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+button {
+    margin-left: 49%;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.slider input[type=radio]:nth-child(1):checked~.bullets>label:nth-child(1){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(2):checked~.bullets>label:nth-child(2){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(3):checked~.bullets>label:nth-child(3){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(4):checked~.bullets>label:nth-child(4){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(5):checked~.bullets>label:nth-child(5){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(6):checked~.bullets>label:nth-child(6){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(7):checked~.bullets>label:nth-child(7){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(8):checked~.bullets>label:nth-child(8){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(9):checked~.bullets>label:nth-child(9){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(10):checked~.bullets>label:nth-child(10){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(11):checked~.bullets>label:nth-child(11){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(12):checked~.bullets>label:nth-child(12){
+    background-color: #fff;
+    display: hidden;
+}
+.slider input[type=radio]:nth-child(13):checked~.bullets>label:nth-child(13){
+    background-color: #fff;
+    display: hidden;
+}
+
+.slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(2):checked~ul.imgs>li:nth-child(2){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(3):checked~ul.imgs>li:nth-child(3){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(4):checked~ul.imgs>li:nth-child(4){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(5):checked~ul.imgs>li:nth-child(5){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(6):checked~ul.imgs>li:nth-child(6){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(7):checked~ul.imgs>li:nth-child(7){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(8):checked~ul.imgs>li:nth-child(8){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(9):checked~ul.imgs>li:nth-child(9){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(10):checked~ul.imgs>li:nth-child(10){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(11):checked~ul.imgs>li:nth-child(11){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(12):checked~ul.imgs>li:nth-child(12){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+    visibility: visible;
+}
+.slider input[type=radio]:nth-child(13):checked~ul.imgs>li:nth-child(13){
+    left: 0;
+    transition: 0.5s;
+    z-index:1;
+    visibility: visible;
+}
+

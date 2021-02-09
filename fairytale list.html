@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>동화책 리스트</title>
+</head>
+<style>
+@font-face {
+             font-family: 'Tangerine';
+             src: url(./Tangerine/Tangerine-Bold.ttf) format('truetype');
+}
+button #1 {
+    margin-left: 100%;
+    border-radius: 50%;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+}
+body{
+    background-color: black;
+    font-size:15px;
+    color:#ffffff;
+    font-family: 'Tangerine';
+}
+ul {
+    list-style-type:none;
+}
+#new h1 {
+    padding-bottom:5px;
+    border:solid 2px #ffffff;
+    border-radius: 50px;	
+    text-align: center;
+}
+#new .book{
+    float:left;
+    margin-top:20px;	
+    text-align:center;
+    margin-left: 9%;
+}
+#btn_group button{
+	border:2px solid white;
+	background-color: rgba(0,0,0,0);
+	color:white;
+	padding: 20px;
+	border-radius: 50px;
+   font-family:  'Tangerine';
+}
+p{
+  color: white;
+  /*font-style: italic;*/
+  font-family:  'Tangerine';
+  font-size: 30px;
+}
+hr {
+  border-top: 2px dotted white;
+}
+
+</style>
+<body>
+  <div id="new">
+    <ul class="book">
+      <li><img style="border-radius: 50%; border:1px solid black;" src="resources/cinderella.gif" width="500" height="500"></li><hr><p>Cinderella</p>
+      <div id="btn_group">
+    <button onclick="location.href='cinderella.html'">📖 READ </button >&nbsp;<button onclick="location.href='https://youtu.be/O8dEWk_VHpk'">🎵 OST </button ></div>
+    </ul>
+    <ul class="book">
+      <li><img style="border-radius: 50%; border:1px solid black;"src="resources/snowwhite.gif" width="500" height="500"></li><hr><p>Snow white</p>
+        <div id="btn_group">
+  <button onclick="location.href='snowwhite.html'">📖 READ</button >&nbsp;<button onclick="location.href='https://youtu.be/D9HKNN4Ar5M'">🎵 OST </button ></div>
+    </ul>
+  </div>
+  <button.1 onclick="location.href='startpage.html'">BACK</button>
+</body>
+</html>
